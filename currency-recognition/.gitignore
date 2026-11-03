@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# raw photos are 6.9 GB, too large for GitHub; the processed copies in data/processed are included
+data/raw/*
+!data/raw/PUT_DATASET_HERE.txt
+my_photos/*/
+.gradio/

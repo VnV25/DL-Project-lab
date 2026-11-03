@@ -1,0 +1,12 @@
+Extract the downloaded dataset into this folder. Any folder layout works, as long as the folder
+names contain the value of the note, for example:
+
+  data/raw/10/...           data/raw/Rs_500_new/...      data/raw/100 old/...
+  data/raw/Tennote/...      data/raw/5Hundrednote/...    data/raw/train/50/...
+
+Old and new designs of the same value are merged automatically.
+
+Optional but recommended: add a folder called "background" with 100+ photos that contain
+no note (table, hand, paper, bag, wallet). The app then says "no note found" instead of guessing.
+
+Run "python prepare_data.py" afterwards. It lists any folder it could not understand.
